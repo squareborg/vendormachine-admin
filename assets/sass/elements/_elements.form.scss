@@ -1,0 +1,7 @@
+input,
+textarea,
+.input {
+  @apply py-2 px-4 my-1 text-base rounded;
+  width: 100%;
+  outline: none;
+}

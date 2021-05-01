@@ -1,0 +1,17 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__brand {
+    height: 100px;
+  }
+
+  &__user {
+    @apply mt-auto p-10;
+  }
+
+  &__link {
+    @apply block py-3  pl-1 align-middle text-grey-200 no-underline border-b-2 border-grey-800;
+  }
+}

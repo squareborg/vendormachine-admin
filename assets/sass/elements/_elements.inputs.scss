@@ -1,0 +1,37 @@
+input,
+select,
+.input {
+ @apply bg-transparent p-4 rounded text-lg;
+ border-width: 0 0 1px;
+ border-color: theme('colors.grey.300');
+ width: 100%;
+ outline: none;
+ transition: border-color 100ms ease;
+
+ &:focus {
+   border-color: theme('colors.green.500');
+ }
+
+ &:disabled {
+   @apply bg-grey-200;
+ }
+
+ &--slim {
+   @apply px-4 py-2 text-base;
+ }
+
+ &--bordered {
+   @apply border;
+   border-color:  theme('colors.grey.300');
+ }
+}
+
+
+select {
+ height: 60px;
+}
+
+label {
+ @apply text-sm my-1;
+ display: block;
+}

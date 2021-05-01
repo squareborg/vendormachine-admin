@@ -1,0 +1,11 @@
+.badge {
+  @apply rounded-full bg-grey-300 text-grey-600 text-xs font-bold px-3 py-1;
+
+  &--primary {
+    @apply bg-green-400 text-white;
+  }
+
+  &--blue {
+    @apply bg-blue-400 text-white;
+  }
+}

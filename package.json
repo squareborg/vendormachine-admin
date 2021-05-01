@@ -1,0 +1,42 @@
+{
+  "name": "VendorMachine",
+  "version": "1.0.0",
+  "description": "VendorMachine",
+  "author": "Sqware",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/toast": "^3.2.1",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "nuxt-svg-loader": "^1.0.1",
+    "query-string": "^6.8.3",
+    "sass-loader": "^8.0.0",
+    "sass-mq": "^5.0.1",
+    "sweetalert2": "^8.17.1",
+    "vue-click-outside": "^1.0.7",
+    "vue-currency-input": "^1.18.3",
+    "vue-js-modal": "^1.3.31",
+    "vue-pagination-2": "^2.0.3",
+    "vue-star-rating": "^1.6.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "tailwindcss": "^1.0.0",
+    "vue-jest": "^3.0.3"
+  }
+}

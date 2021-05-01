@@ -1,0 +1,55 @@
+.cover-image {
+  @apply rounded-xl block;
+  @include aspect-ratio(1, 1);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 300px;
+  cursor: pointer;
+
+  &::after {
+    @apply rounded-xl block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(black, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__label {
+    @apply p-4 w-full text-white text-center font-bold text-sm rounded-b-xl;
+    background-color: rgba(black, .75);
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+
+  &__loader {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 3;
+  }
+
+  &__remove {
+    @apply rounded-full;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    color: white;
+    z-index: 3;
+    background: theme('colors.grey.800');
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

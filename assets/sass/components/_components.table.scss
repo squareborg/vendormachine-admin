@@ -1,0 +1,17 @@
+.table {
+  @apply w-full text-left;
+
+  &__row {
+    @apply rounded shadow;
+  }
+
+  td, th {
+    @apply p-4 rounded;
+    background: white;
+    border-bottom: 1px solid theme('colors.grey.300');
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,51 @@
+@tailwind base;
+
+// Settings
+@import 'settings/settings.typography';
+@import 'settings/settings.animation';
+@import 'settings/settings.gradients';
+
+// Tools
+@import 'sass-mq';
+@import 'tools/tools.aspect-ratio';
+@import 'tools/tools.break-word';
+
+// Elements
+@import 'elements/elements.body';
+@import 'elements/elements.form';
+@import 'elements/elements.inputs';
+@import 'elements/elements.typography';
+@import 'elements/elements.button';
+
+// Components
+@import 'components/components.grid';
+@import 'components/components.dashboard';
+@import 'components/components.page';
+@import 'components/components.header';
+@import 'components/components.sidebar';
+@import 'components/components.nav';
+@import 'components/components.avatar';
+@import 'components/components.pagination';
+@import 'components/components.buttons';
+@import 'components/components.cards';
+@import 'components/components.form';
+@import 'components/components.badge';
+@import 'components/components.page-header';
+@import 'components/components.breadcrumbs';
+@import 'components/components.tabs';
+@import 'components/components.modal';
+@import 'components/components.table';
+@import 'components/components.log';
+@import 'components/components.autocomplete';
+@import 'components/components.search-select';
+@import 'components/components.attachment-list';
+@import 'components/components.loader';
+@import 'components/components.module-cover';
+@import 'components/components.cover-image';
+@import 'components/components.onboarding';
+
+// Vendor
+@import 'vendor/vendor.toast';
+
+// Utilities
+@tailwind utilities;

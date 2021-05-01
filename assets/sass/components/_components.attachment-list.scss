@@ -1,0 +1,12 @@
+.attachment-list {
+  &__item {
+    @apply px-2 py-4 block flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid theme('colors.grey.400');
+
+    &:hover {
+      @apply bg-grey-100 rounded;
+    }
+  }
+}

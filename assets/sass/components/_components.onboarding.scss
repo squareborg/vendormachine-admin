@@ -1,0 +1,81 @@
+.onboarding {
+  &__container {
+
+  }
+
+  &__main {
+
+  }
+
+  &__aside {
+
+    background-image: url('https://vendormachine.s3.eu-west-2.amazonaws.com/images/onboarding2.jpg');
+    background-size: cover;
+
+  }
+
+  &__input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: theme('colors.grey.400');
+
+    &:focus {
+      border-color: theme('colors.purple.500');
+    }
+  }
+
+  &__back-button {
+    @apply font-semibold;
+    user-select: none;
+    background-color: theme('colors.white');
+    &:hover {
+      background-color: theme('colors.grey.100');
+    }
+  }
+
+  &__proceed-button {
+    @apply font-semibold;
+    transition: color 0.7s;
+    user-select: none;
+
+    &:hover {
+      background-color: theme('colors.grey.300');
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      // margin: -35px 0 0 -35px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    
+
+
+    &::after {
+      background: rgba(111,148,182,0.1);
+    }
+    &--click::after {
+      animation: anim-effect-boris 0.3s forwards;
+    }
+
+    @keyframes anim-effect-boris {
+      0% {
+        transform: scale3d(0.3, 0.3, 1);
+      }
+      25%, 50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: scale3d(1.2, 1.2, 1);
+      }
+    }
+  }
+
+}
+

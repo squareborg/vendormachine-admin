@@ -1,0 +1,7 @@
+.page-header {
+  @apply mt-4 mb-10 flex flex-wrap items-center;
+
+  &__actions {
+    text-align: right;
+  }
+}

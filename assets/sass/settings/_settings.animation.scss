@@ -1,0 +1,62 @@
+$speed: 250ms;
+$animation-curve: cubic-bezier(.55,0,.1,1);
+$base-transition: $speed cubic-bezier(.55,0,.1,1);
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 200ms
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.slide-left,
+.slide-right {
+  transition: all $base-transition;
+}
+
+.slide-left-enter {
+  opacity: 0;
+  transform: translate(20px, 0);
+}
+
+.slide-left-leave-active {
+  opacity: 0;
+  transform: translate(-20px, 0);
+}
+
+.slide-right-enter {
+  opacity: 0;
+  transform: translate(-20px, 0);
+}
+
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate(20px, 0);
+}
+
+.slide-enter-active, .slide-leave-active {
+  transition: all $base-transition;
+}
+
+.slide-enter, .slide-leave-to {
+  opacity: 0;
+  transform: translate(10px, 0);
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity $base-transition
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.slide-up-enter-active, .slide-up-leave-active {
+  transition: all $base-transition;
+}
+
+.slide-up-enter, .slide-up-leave-to {
+  opacity: 0;
+  transform: translate(0, 40px);
+}

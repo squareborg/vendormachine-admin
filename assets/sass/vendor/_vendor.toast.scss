@@ -1,0 +1,31 @@
+.toasted {
+  &.toasted-custom {
+    @apply rounded-full text-sm font-bold py-2;
+    justify-content: center !important;
+    min-height: 38px;
+    line-height: 1.1em;
+    width: 100%;
+
+    &.success {
+      background: theme('colors.green.500');
+      color: white;
+    }
+
+    &.error {
+      background: rgba(#e3342f, 0.9);
+      color: white;
+    }
+
+    &.info {
+      background: #3F51B5;
+    }
+
+    &.default {
+      background: rgba(#D8D8D8, 0.9)
+    }
+
+    .action {
+      color: #a1c2fa;
+    }
+  }
+}

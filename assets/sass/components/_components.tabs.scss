@@ -1,0 +1,30 @@
+.tabs {
+  @apply rounded-t;
+  border-bottom: none;
+
+  &__item {
+    @apply px-6 py-4 inline-block font-bold;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 100%;
+      height: 4px;
+      background-color: transparent;
+      border-radius: 4px 4px 0 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transition: all 200ms ease;
+    }
+
+    &--is-active {
+      color: theme('colors.white');
+    }
+
+    &--is-active:after {
+      background-color: theme('colors.teal.500');
+    }
+  }
+}

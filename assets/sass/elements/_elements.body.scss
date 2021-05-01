@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #161d2e;
+  background: theme('colors.white.200');
+  box-sizing: border-box;
+}

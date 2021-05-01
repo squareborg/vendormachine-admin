@@ -1,0 +1,21 @@
+.pagination {
+
+}
+
+.page-item {
+  display: inline-block;
+}
+
+.page-link {
+  @apply bg-white rounded shadow px-4 py-2;
+  display: inline-block;
+}
+
+.VuePagination__count {
+  @apply my-5;
+  text-align: center;
+}
+
+.VuePagination__pagination-item.active {
+  @apply text-green-500;
+}

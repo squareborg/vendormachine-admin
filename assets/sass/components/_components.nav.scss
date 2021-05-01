@@ -1,0 +1,44 @@
+.nav {
+  @apply py-10;
+
+  &__icon {
+    @apply text-grey-500;
+    width: 30px;
+    text-align: center;
+  }
+
+  &__link {
+    @apply mr-5 my-5 py-1 px-10 text-base font-bold text-grey-600 block;
+    position: relative;
+    transition: all 200ms ease;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+      border-radius: 0 3px 3px 0;
+      background-color: theme('colors.teal.500');
+      transform: translateX(-5px);
+      transition: all 200ms ease;
+    }
+
+    &:hover,
+    &.nuxt-link-active {
+      @apply no-underline;
+    }
+
+    &:hover > i,
+    &.nuxt-link-active > i {
+      @apply text-grey-500;
+    }
+
+    &:hover:before,
+    &.nuxt-link-active:before {
+      transform: translateX(0);
+    }
+  }
+}

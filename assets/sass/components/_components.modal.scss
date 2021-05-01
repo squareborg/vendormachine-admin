@@ -1,0 +1,9 @@
+.modal {
+  @apply p-10 bg-white;
+  color: #000;
+}
+
+.v--modal {
+  background: theme('colors.white') !important;
+  box-shadow: 0 20px 30px rgba(black, 0.3) !important;
+}

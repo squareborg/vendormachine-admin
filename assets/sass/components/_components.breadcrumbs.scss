@@ -1,0 +1,23 @@
+.breadcrumbs {
+  @apply mb-8;
+
+  &__item {
+    @apply text-grey-600;
+    display: inline-block;
+  }
+
+  &__item:not(:last-child) {
+    &:after {
+      @apply mx-2;
+      content: '/';
+    }
+  }
+
+  &__link {
+    text-decoration: underline;
+
+    &:hover {
+      color: theme('colors.green.brand');
+    }
+  }
+}

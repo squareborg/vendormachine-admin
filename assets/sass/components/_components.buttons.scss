@@ -1,0 +1,29 @@
+.btn {
+  @apply text-sm rounded-xl font-bold px-8;
+  height: 54px;
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &--primary {
+    color: theme('colors.white');
+    background: $gradPrimary;
+  }
+
+  &--secondary {
+    color: theme('colors.black');
+    background: theme('colors.grey.200')
+  }
+
+  &--outline {
+    @apply border-grey-500 text-grey-500 border rounded px-3 py-1 text-sm mb-0;
+    background-color: transparent;
+    height: auto;
+  }
+
+  &--danger {
+    background: theme('colors.red.500');
+  }
+}

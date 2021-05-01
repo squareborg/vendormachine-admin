@@ -1,0 +1,21 @@
+.header {
+  @apply bg-white text-black px-10;
+  border-bottom: 1px solid theme('colors.grey.300');
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  &__brand {
+    img {
+      height: 20px;
+    }
+  }
+
+  &__nav {
+    flex: 1;
+  }
+}

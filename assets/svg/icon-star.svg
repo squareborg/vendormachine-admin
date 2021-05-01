@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="17px" viewBox="0 0 90 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Rating</title>
+    <desc>Created with Sketch.</desc>
+    <g id="::-Module-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tracklist---Default-View" transform="translate(-255.000000, -340.000000)">
+            <g id="::-Description" transform="translate(30.000000, 339.000000)">
+                <g id="Rating" transform="translate(225.000000, 1.000000)">
+                    <g id="Atoms-/-Icons-/-Star-Deactive" fill="#394255">
+                        <polygon id="Star-Copy-8" points="9 13.6370675 3.70993273 16.2811529 4.58988672 10.4329327 0.440491353 6.21884705 6.2744001 5.24853357 9 0 11.7255999 5.24853357 17.5595086 6.21884705 13.4101133 10.4329327 14.2900673 16.2811529"></polygon>
+                    </g>
+                    <g id="Atoms-/-Icons-/-Star-Active" transform="translate(18.000000, 0.000000)" fill="#5DE7FF">
+                        <polygon id="Star-Copy-8" points="9 13.6370675 3.70993273 16.2811529 4.58988672 10.4329327 0.440491353 6.21884705 6.2744001 5.24853357 9 0 11.7255999 5.24853357 17.5595086 6.21884705 13.4101133 10.4329327 14.2900673 16.2811529"></polygon>
+                    </g>
+                    <g id="Atoms-/-Icons-/-Star-Active" transform="translate(36.000000, 0.000000)" fill="#5DE7FF">
+                        <polygon id="Star-Copy-8" points="9 13.6370675 3.70993273 16.2811529 4.58988672 10.4329327 0.440491353 6.21884705 6.2744001 5.24853357 9 0 11.7255999 5.24853357 17.5595086 6.21884705 13.4101133 10.4329327 14.2900673 16.2811529"></polygon>
+                    </g>
+                    <g id="Atoms-/-Icons-/-Star-Active" transform="translate(54.000000, 0.000000)" fill="#5DE7FF">
+                        <polygon id="Star-Copy-8" points="9 13.6370675 3.70993273 16.2811529 4.58988672 10.4329327 0.440491353 6.21884705 6.2744001 5.24853357 9 0 11.7255999 5.24853357 17.5595086 6.21884705 13.4101133 10.4329327 14.2900673 16.2811529"></polygon>
+                    </g>
+                    <g id="Atoms-/-Icons-/-Star-Active" transform="translate(72.000000, 0.000000)" fill="#5DE7FF">
+                        <polygon id="Star-Copy-8" points="9 13.6370675 3.70993273 16.2811529 4.58988672 10.4329327 0.440491353 6.21884705 6.2744001 5.24853357 9 0 11.7255999 5.24853357 17.5595086 6.21884705 13.4101133 10.4329327 14.2900673 16.2811529"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
